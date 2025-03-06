@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <nav class="navbar nav-1">
+      <section class="flex">
+         <a href="home.html" class="logo"><i class="fas fa-house"></i>MyHome</a>
+
+         <ul>
+            <li><a href="#">post property<i class="fas fa-paper-plane"></i></a></li>
+         </ul>
+      </section>
+   </nav>
+
+   <nav class="navbar nav-2">
+      <section class="flex">
+         <div id="menu-btn" class="fas fa-bars"></div>
+
+         <div class="menu">
+            <ul>
+               <li><a href="#">buy<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                     <li><a href="#">ready to move</a></li>
+                     <li><a href="#">furnished</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">sell<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="#">post property</a></li>
+                     <li><a href="#">dashboard</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">rent</a>
+                  <ul>
+                     <li><a href="#">house</a></li>
+                     <li><a href="#">flat</a></li>
+                     <li><a href="#">shop</a></li>
+                  </ul>
+               </li>
+               <li><a href="#">help<i class="fas fa-angle-down"></i></a>
+                  <ul>
+                     <li><a href="about.html">about us</a></i></li>
+                     <li><a href="contact.html">contact us</a></i></li>
+                     <li><a href="contact.html#faq">FAQ</a></i></li>
+                  </ul>
+               </li>
+            </ul>
+         </div>
+
+         <ul>
+            <li><a href="#">saved <i class="far fa-heart"></i></a></li>
+            <li><a href="#">account <i class="fas fa-angle-down"></i></a>
+               <ul>
+                  <li><a href="login.html">login</a></li>
+                  <li><a href="register.html">register</a></li>
+               </ul>
+            </li>
+         </ul>
+      </section>
+   </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact">
+
+   <div class="row">
+      <div class="image">
+         <img src="images/contact-img.svg" alt="">
+      </div>
+      <!-- <form action="#" method="post" class="was-validated"> -->
+      <form action="#">
+         <h3>get in touch</h3>
+         <input type="text" name="name" required maxlength="50" placeholder="enter your name" class="box">
+         <input type="email" name="email" required maxlength="50" placeholder="enter your email" class="box">
+         <input type="number" name="number" required maxlength="10" max="9999999999" min="0" placeholder="enter your number" class="box">
+         <textarea name="message" placeholder="enter your message" required maxlength="1000" cols="30" rows="10" class="box"></textarea>
+         <input type="submit" value="send message" name="send" class="btn" onclick="alert('You Have Successfully send your message')">
+         <!-- <button class="btn" value="send message" name="send" id="msg" onclick="alert('You Have Successfully send your message')">Submit</button> -->
+      </form>
+   </div>
+
+</section>
+
+<!-- contact section ends -->
+
+<!-- faq section starts  -->
+
+<section class="faq" id="faq">
+
+   <h1 class="heading">FAQ</h1>
+
+   <div class="box-container">
+
+      <div class="box active">
+         <h3><span>how to cancel booking?</span><i class="fas fa-angle-down"></i></h3>
+         <p>To cancel your booking, log in to your account,and get in touch and send message about your booking that you want to cancel.For further assistance, contact our support team.</p>
+      </div>
+
+      <div class="box active">
+         <h3><span>when will I get the possession?</span><i class="fas fa-angle-down"></i></h3>
+         <p>Ready-to-move-in properties: Immediate possession after payment and paperwork.
+            Under-construction properties: As per the developer’s timeline mentioned in the agreement</p>
+      </div>
+
+      <div class="box">
+         <h3><span>where can I pay the rent?</span><i class="fas fa-angle-down"></i></h3>
+         <p>Currently, rent payments are processed offline. Please contact your property manager or our support team for payment instructions and available payment methods.</p>
+      </div>
+
+      <div class="box">
+         <h3><span>how to contact with the buyers?</span><i class="fas fa-angle-down"></i></h3>
+         <p>To contact buyers, you can reach out through the contact information provided on their property inquiry. If you're a registered, you can use the messaging feature on our website.</p>
+      </div>
+
+      <div class="box">
+         <h3><span>why my listing not showing up?</span><i class="fas fa-angle-down"></i></h3>
+         <p>Your listing may not be showing up due to incomplete details, or if it has expired or been marked inactive.It’s also possible that there could be temporary technical issues on the website.</p>
+      </div>
+
+      <div class="box">
+         <h3><span>how to promote my listing?</span><i class="fas fa-angle-down"></i></h3>
+         <p>Sharing your listing on social media or through your network can also help increase its exposure. If you need further guidance, feel free to contact our support team.</p>
+      </div>
+
+   </div>
+
+</section>
+
+<!-- faq section ends -->
+
+<!-- footer section starts  -->
+
+<footer class="footer">
+
+   <section class="flex">
+
+      <div class="box">
+         <a href="tel:9510916689"><i class="fas fa-phone"></i><span>9510916689</span></a>
+         <a href="tel:9510916692"><i class="fas fa-phone"></i><span>9510916692</span></a>
+         <a href="mailto:kinjalrana183@gmail.com"><i class="fas fa-envelope"></i><span>kinjalrana183@gmail.com</span></a>
+         <a href="#"><i class="fas fa-map-marker-alt"></i><span>Ahmedabad, india - 382443</span></a>
+      </div>
+
+      <div class="box">
+         <a href="home.html"><span>home</span></a>
+         <a href="about.html"><span>about</span></a>
+         <a href="contact.html"><span>contact</span></a>
+         <a href="listings.html"><span>all listings</span></a>
+         <a href="savedproperty.html"><span>saved properties</span></a>
+      </div>
+
+      <div class="box">
+         <a href="https://www.facebook.com/profile.php?id=61551389821140&mibextid=ZbWKwL" target="_blank"><span>facebook</span><i class="fab fa-facebook-f"></i></a>
+         <a href="https://github.com/Mahek-28" target="_blank"><span>github</span><i class="fab fa-github"></i></a>
+         <a href="https://www.linkedin.com/in/mahek-rana" target="_blank"><span>linkedin</span><i class="fab fa-linkedin"></i></a>
+         <a href="https://www.instagram.com/mahek.2815?utm_source=qr&igsh=cnVudzJmdnJsZGxo" target="_blank"><span>instagram</span><i class="fab fa-instagram"></i></a>
+
+      </div>
+
+   </section>
+
+   <div class="credit">&copy; copyright @ 2025 by <span>Miss. Mahek Rana</span> | all rights reserved!</div>
+
+</footer>
+
+<!-- footer section ends -->
+
+
+<!-- custom js file link  -->
+<script src="js/script.js">
+   const message=document.getElementsByClassName("btn")
+   message.addEventListener("click",function(){
+      alert('You Have Successfully send your message')
+   });
+</script>
+
+</body>
+</html>
